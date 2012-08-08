@@ -77,7 +77,8 @@ public class BookPlugin extends JavaPlugin implements Listener {
 					String[] lines = b.getPages();
 					config.set(name, Arrays.asList(lines));
 					config.save(this);
-					player.setItemInHand(null);
+					//player.setItemInHand(null);
+					player.chat("/read");
 					return true;
 				} else {
 					player.sendMessage(ChatColor.RED+"// Command can only be used with a book in your hand");
