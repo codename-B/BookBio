@@ -1,0 +1,9 @@
+name: BookBio
+author: codename_B
+version: 1.0
+main: de.bananaco.bio.BookPlugin
+commands:
+  read:
+    usage: /<command>
+  write:
+    usage: /<command>
