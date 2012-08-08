@@ -70,7 +70,7 @@ public class BookPlugin extends JavaPlugin implements Listener {
 			ItemStack inHand = player.getItemInHand();
 			if(listeningLines.contains(name)) {
 				if(inHand != null && (inHand.getType() == Material.WRITTEN_BOOK || inHand.getType() == Material.BOOK_AND_QUILL)) {
-					player.sendMessage(ChatColor.GREEN+"// Book saved!");
+					player.sendMessage(ChatColor.GREEN+"// Book saved");
 					listeningLines.remove(name);
 					// get book in hand
 					Book b = new CraftBookBuilder().getBook(inHand);

@@ -1,6 +1,6 @@
 name: BookBio
 author: codename_B
-version: 1.0
+version: 1.1
 main: de.bananaco.bio.BookPlugin
 commands:
   read:
